@@ -92,3 +92,22 @@ background-image:linear-gradient(130deg, rgb(211, 146, 130) , rgb(251, 234, 76))
 .cart-3{
 background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26)) ;
 }
+
+.development-section{
+    background-image: url(image/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 65px;
+    background-size: 200px;
+}
+.image-container{
+    width: 45%;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.right-container{
+    width: 75%;
+    margin-left: 50px;
+}
