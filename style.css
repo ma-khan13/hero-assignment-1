@@ -3,86 +3,80 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-h1{
-    font-size: 55px;
+.top-section{
+    margin: 80px 0 ;
 }
-
 .section-items{
     display: flex;
-    padding: 80px 150px 0;
+    width: 78%;
+    margin: 0 auto;
+}
+#border-span{
+    height: 100px;
+    top: 138px;
+    border-radius: 2px;
+    position: absolute;
+    border-left: 4px solid rgba(238, 14, 14, 0.582);
+}
+.heading{
+    margin-bottom: -20px;
+}
+.text-container{
+    width: 70%;
 }
 
-.heading-content{
-    border-left: 4px solid rgba(238, 14, 14, 0.582);
-    padding-left:10px ;
-}
-.heading-content h1{
+.heading h1{
     font-family: 'Yeseva One', cursive;
     font-weight: 500;
+    margin-left: 15px;
+    font-size: 55px;
+    color: rgb(68, 62, 54);
 }
-
+.text-container p{
+    color: rgb(141, 125, 125);
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    margin-right: 150px;
+}
 .color-text{
-    color: orange;
+    color: rgba(238, 158, 11, 0.849);
 }
-.p-content{
-    width: 60%;
-    margin-top: -20px;
-}
-.p-content p{
-    color: gray;
-    font-size: 20px;
-}
-
-.p-content p{
-    color: gray;
-    font-size: 18px;
-    font-weight: 400;
-}
-
 .link-button{
-    background-color: rgb(221, 53, 53);
+    background-color: rgb(241, 83, 43);
     padding: 10px 20px;
     border-radius: 4px;
     color: white;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-bottom: 50px;
 }
-.right-container{
-    width: 50%;
+.image-container{
+    width: 30%;
 }
-.right-container img{
+.image-container img{
     width: 100%;
 }
-
 .mission-title{
     text-align: center;
     font-size: 40px;
     font-weight: 900;
 }
-
-.cart-section{
+.cart-items{
     width: 100%;
     display: flex;
     justify-content:space-between;
-    margin: -80px 0 50px 0;
+    margin-bottom: 100px;
 }
 .cart-item{
     width: 280px;
     padding:25px 30px ;
-    border-radius: 17px;   
+    border-radius: 17px; 
+    color: rgb(78, 68, 68);  
 }
-
-.cart-item{
-    color: rgb(78, 68, 68);   
-}
-
 .cart-item img{
     width: 30%;
 }
-
 .cart-1{
 background-image:linear-gradient(130deg, rgb(241, 83, 43) , rgb(202, 185, 26)) ;
 }
@@ -92,7 +86,6 @@ background-image:linear-gradient(130deg, rgb(211, 146, 130) , rgb(251, 234, 76))
 .cart-3{
 background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26)) ;
 }
-
 .development-section{
     background-image: url(image/shapes/shape-1.png);
     background-repeat: no-repeat;
@@ -102,47 +95,158 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
 .image-container{
     width: 45%;
 }
-
 .image-container img{
     width: 100%;
 }
-
+.heading h2{
+    font-size: 35px;
+    color: rgb(68, 62, 54);
+}
 .right-container{
-    width: 75%;
-    margin-left: 50px;
+    padding-left: 55px;
 }
 
+.right-container p{
+    margin: 30px 0;
+    line-height: 30px;
+}
 .community-section{
     padding-bottom: 100px;
     background-image: url(image/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position: 1100px 370px;
+    background-position: 1100px 300px;
     background-size: 200px;
+    margin: 100px 0;
 }
-
-.left-container{
-    width: 60%;
-    margin-right: 100px;
+.community-section h1 {
+    font-size: 35px;
+    color: rgb(68, 62, 54);
 }
-
-.coustom-build-section h1{
-    margin-top: 0;
+.content p{
+    margin-right: 70px;
+}
+.coustom-build-section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.coustom-build-section .heading h1{
+    margin-top: -80px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.reprot-container{
+    width: 100%;
+    background-image: url(image/shapes/covid-19.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    text-align: center;
+    box-shadow: 10px 10px 100px 5px rgb(5, 5, 5);
+    border-radius: 7px;
+    padding-bottom: 50px;
+}
+
+.covid-19{
+    background-color: grey;
+    text-align: center;
+    color: honeydew;
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 55px;
+}
+.covid-19 h1{
+    margin: 0;
+}
+.covid-19-reptots{
+    display: flex;
+}
+
+.reprots{
+    width: 40%;
+}
+.active-close{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.active{
+    width: 48%;
+}
+.active .title h1{
+    border:1px solid gray;
+    border-radius: 7px;
+}
+
+.mild-condition , .recpvered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mild-condition h1{
+    color: rgb(81, 108, 184);
+}
+.serious-condition , .deaths{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serious-condition h1{
+    color: red;
+}
+.recpvered h1{
+    color: rgb(36, 179, 36);
+}
+.close{
+    width: 48%;
+}
+
+.close .title h1{
+    border:1px solid gray;
+    border-radius: 7px;
+}
+
+.total-cases h1 ,.total-deaths h1 , .total-recovered h1{
+    color: rgb(138, 131, 123);
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+.total-recovered h1{
+    color: rgb(92, 190, 92);
+}
+
+.total-cases h2 ,.total-deaths h2 , .total-recovered h2{
+    color: rgb(63, 58, 52);
+    font-weight: 700;
+    font-size: 25px;
+}
+.total-cases a{
+    color: orange;
+}
+.reprot-container{
+    width: 100%;
+    background-image: url(image/shapes/covid-19.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    text-align: center;
+    box-shadow: 10px 10px 100px 5px rgb(230, 183, 73);
+    border-radius: 7px;
+    padding-bottom: 50px;
 }
 footer{
     text-align: center;
     background-color: rgb(2, 3, 19);
     color: white;
-    padding: 5px 0;
-    
+    padding: 5px 0;   
 }
-
 footer h3{
     font-family: 'Yeseva One', cursive;
     font-size: 35px;
     font-weight: 400;
 }
-
 footer p{
     color: rgb(69, 86, 117);
 }
