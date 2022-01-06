@@ -3,6 +3,8 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* top-section */
+
 .top-section{
     margin: 80px 0 ;
 }
@@ -24,6 +26,10 @@ body{
 .text-container{
     width: 70%;
 }
+.text-container small{
+    color: grey;
+}
+
 .heading h1{
     font-family: 'Yeseva One', cursive;
     font-weight: 500;
@@ -41,6 +47,9 @@ body{
 .color-text{
     color: rgba(238, 158, 11, 0.849);
 }
+
+/* button design */
+
 .link-button{
     background-color: rgb(241, 83, 43);
     padding: 10px 20px;
@@ -49,12 +58,16 @@ body{
     text-decoration: none;
     font-weight: 500;
 }
+
 .image-container{
     width: 30%;
 }
 .image-container img{
     width: 100%;
 }
+
+/* mission section */
+
 .mission-title{
     text-align: center;
     font-size: 40px;
@@ -84,6 +97,9 @@ background-image:linear-gradient(130deg, rgb(211, 146, 130) , rgb(251, 234, 76))
 .cart-3{
 background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26)) ;
 }
+
+/* development-section */
+
 .development-section{
     background-image: url(image/shapes/shape-1.png);
     background-repeat: no-repeat;
@@ -108,6 +124,9 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
     margin: 30px 0;
     line-height: 30px;
 }
+
+/* community-section */
+
 .community-section{
     padding-bottom: 100px;
     background-image: url(image/shapes/shape-1.png);
@@ -124,6 +143,7 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
     margin-right: 70px;
 }
 
+/* custom-section */
 
 .custom-build-section{
     margin-top: 50px;
@@ -135,6 +155,7 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
+
 .repot-container{
     width: 100%;
     background-image: url(image/shapes/covid-19.png);
@@ -142,10 +163,12 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
     background-repeat: no-repeat;
     background-size: 150px;
     text-align: center;
-    box-shadow: 10px 10px 100px 5px rgb(5, 5, 5);
+    box-shadow: 10px 10px 100px 5px rgb(236, 222, 192);
     border-radius: 7px;
     padding-bottom: 50px;
 }
+
+
 .covid-19{
     background-color: grey;
     text-align: center;
@@ -219,17 +242,9 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
 .total-cases a{
     color: orange;
 }
-.repot-container{
-    width: 100%;
-    background-image: url(image/shapes/covid-19.png);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 150px;
-    text-align: center;
-    box-shadow: 10px 10px 100px 5px rgb(230, 183, 73);
-    border-radius: 7px;
-    padding-bottom: 50px;
-}
+
+/* footer-section */
+
 footer{
     text-align: center;
     background-color: rgb(2, 3, 19);
