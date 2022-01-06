@@ -24,7 +24,6 @@ body{
 .text-container{
     width: 70%;
 }
-
 .heading h1{
     font-family: 'Yeseva One', cursive;
     font-weight: 500;
@@ -49,7 +48,6 @@ body{
     color: white;
     text-decoration: none;
     font-weight: 500;
-    letter-spacing: 1px;
 }
 .image-container{
     width: 30%;
@@ -125,17 +123,19 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
 .content p{
     margin-right: 70px;
 }
-.coustom-build-section{
+
+
+.custom-build-section{
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.coustom-build-section .heading h1{
+.custom-build-section .heading h1{
     margin-top: -80px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
-.reprot-container{
+.repot-container{
     width: 100%;
     background-image: url(image/shapes/covid-19.png);
     background-position: left;
@@ -146,7 +146,6 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
     border-radius: 7px;
     padding-bottom: 50px;
 }
-
 .covid-19{
     background-color: grey;
     text-align: center;
@@ -157,11 +156,10 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
 .covid-19 h1{
     margin: 0;
 }
-.covid-19-reptots{
+.covid-19-retots{
     display: flex;
 }
-
-.reprots{
+.repots{
     width: 40%;
 }
 .active-close{
@@ -169,7 +167,6 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
     width: 50%;
     justify-content: space-between;
 }
-
 .active{
     width: 48%;
 }
@@ -177,8 +174,7 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
     border:1px solid gray;
     border-radius: 7px;
 }
-
-.mild-condition , .recpvered{
+.mild-condition , .recovered{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,7 +190,7 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
 .serious-condition h1{
     color: red;
 }
-.recpvered h1{
+.recovered h1{
     color: rgb(36, 179, 36);
 }
 .close{
@@ -205,7 +201,6 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
     border:1px solid gray;
     border-radius: 7px;
 }
-
 .total-cases h1 ,.total-deaths h1 , .total-recovered h1{
     color: rgb(138, 131, 123);
     font-weight: 900;
@@ -216,7 +211,6 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
 .total-recovered h1{
     color: rgb(92, 190, 92);
 }
-
 .total-cases h2 ,.total-deaths h2 , .total-recovered h2{
     color: rgb(63, 58, 52);
     font-weight: 700;
@@ -225,7 +219,7 @@ background-image:linear-gradient(130deg, rgb(233, 207, 150) , rgb(202, 185, 26))
 .total-cases a{
     color: orange;
 }
-.reprot-container{
+.repot-container{
     width: 100%;
     background-image: url(image/shapes/covid-19.png);
     background-position: left;
